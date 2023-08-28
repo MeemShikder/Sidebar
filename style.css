@@ -46,7 +46,7 @@ body{
 }
 ul li:hover a{
     padding-left: 50px;
-    color: brown;
+    color: rgb(42, 165, 67);
 }
 .sidebar ul a i{
     margin-right: 16px;
@@ -95,11 +95,7 @@ label #cancel{
     height: 100vh;
     font-size: 35px;
     color: white;
-    /* margin: auto;
-    align-items: center;
-    justify-content: center;
-    margin-left: 60vh;
-    margin-top: 60vh; */
+    text-shadow: 3px 3px red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,12 +107,15 @@ label #cancel{
         text-align: center;
     }
     .main h1{
-        text-shadow: 2px 2px red;
+       text-shadow: 3px 3px green;
 
     }
     .sidebar{
-        background: #762e46;
-        opacity: .6;
+        background: #36363b;
+      
+    }
+    ul li:hover a{
+        color: rgb(152, 19, 172);
     }
 
 }
